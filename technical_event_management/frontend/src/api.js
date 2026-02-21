@@ -1,4 +1,4 @@
-const BASE = "http://127.0.0.1:5000/api";
+const BASE = "https://technical-event-management.onrender.com/api";
 
 export const api = async (path, method = "GET", body = null) => {
   const token = localStorage.getItem("token");
